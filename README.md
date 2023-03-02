@@ -11,7 +11,15 @@ else:
 
 ```
 
-2.  
+2. Determine whether the ASCII code for the first letter of a string with length 1 is even or not.
+
+```python
+string : str
+if ord(string[0])%2 == 0:
+	 print(True)
+else:
+	print(False)
+``` 
 
 3. Determine whether a character is a digit. (I checked the definition of digit, and digits are the integers from 0 to 9).
 
@@ -50,4 +58,14 @@ else:
 	print("The point is out of the circle")
 ```
 
-6. 
+6. Determine if three positive lengths (a, b, c) can form a triangle.
+
+```python
+a : int or float
+b : int or float
+c : int or float
+if abs(b-c) < a < b+c:
+	print(True)
+else:
+	print (False)
+``` 

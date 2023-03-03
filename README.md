@@ -46,7 +46,7 @@ else:
 5. Given the center and radious of a circle, determine if a point with coordinates (x, y) is inside the circle.
 
 ```python
-r = int or float 
+r : int or float 
 center_x : int or float
 center_y : int or float
 point_x : int or float

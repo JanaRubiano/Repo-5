@@ -47,10 +47,10 @@ else:
 
 ```python
 r : float 
-center_x : int or float
-center_y : int or float
-point_x : int or float
-point_y : int or float
+center_x : float
+center_y : float
+point_x : float
+point_y : float
 
 if ((center_x + point_x)**2) + ((center_y + point_y)**2) <= r:
 	print("The point is within the circle")

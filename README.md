@@ -24,7 +24,7 @@ else:
 3. Determine whether a character is a digit. (I checked the definition of digit, and digits are the integers from 0 to 9).
 
 ```python
-character : int or float
+character : float
 if type(character) == int and 0 <= character <= 9:
 	 print("character is a digit")
 else:
@@ -34,7 +34,7 @@ else:
 4.  Determine if a real number x is positive, negative or zero.
 
 ```python
-x : int or float
+x : float
 if x == 0:
 	print("El número x es el neutro para la suma")
 elif x > 0:
@@ -46,7 +46,7 @@ else:
 5. Given the center and radious of a circle, determine if a point with coordinates (x, y) is inside the circle.
 
 ```python
-r : int or float 
+r : float 
 center_x : int or float
 center_y : int or float
 point_x : int or float
@@ -61,9 +61,9 @@ else:
 6. Determine if three positive lengths (a, b, c) can form a triangle.
 
 ```python
-a : int or float
-b : int or float
-c : int or float
+a : float
+b : float
+c : float
 if abs(b-c) < a < b+c:
 	print(True)
 else:
